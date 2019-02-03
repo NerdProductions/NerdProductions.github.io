@@ -9,6 +9,7 @@ a:hover {color: salmon;}
 a {color: white; font-family: 'Varela Round', sans-serif;}
 .h {color: white; margin-block-start: 0em; margin-block-end: 0em; font-size: 64px;}
 .tp {color: white; font-family: 'Varela Round', sans-serif; margin: 6%; margin-left: 25%; width: 50%; padding: 0px; border: 4px solid white; border-radius: 6px;}
+.mp {color: white; font-family: 'Varela Round', sans-serif; margin: 6%; margin-left: 25%; width: 50%; padding: 16px; border: 4px solid white; border-radius: 6px;}
 .imgl {padding: 0px; width: 100%}
 .imgm {width: 50%; border-right: 2px solid white; display: inline;}
 .imgs {}
