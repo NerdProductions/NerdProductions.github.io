@@ -1,0 +1,236 @@
+/*
+font-family: 'Oswald', sans-serif;
+font-family: 'Amatic SC', cursive;
+*/
+* {
+    margin: 0px; padding: 0px; 
+}
+body {
+    font-family: 'Varela', sans-serif;
+    line-height: 1.5;
+
+}
+
+ /*---------------HEADER AND NAV----------------*/   
+.header {
+    grid-area: header;
+    color: black;
+    margin: 0px;  
+    border-bottom: 2px solid #569c5c;
+    background-image: linear-gradient(to bottom right, #569c5c, white);
+
+}
+
+.header2 {
+    grid-area: header;
+    color: black;
+    margin: 0px;  
+    border-bottom: 2px solid #0077be;
+    background-image:linear-gradient(to bottom right, #0077be, white);
+
+    
+}
+.nav {
+  
+    height: 10%;
+    border-bottom: 2px solid #569c5c;
+    padding-top: .25em;
+    padding-bottom: 1em;
+    background-color: white;
+}
+.item {
+    float: right;
+    margin: 1em;
+    padding: .25em .75em;
+    
+   
+}
+
+.item:hover {background-color: rgba(53, 156, 77, .2); color: black; border-radius: 50px;}
+#logo2 {font-weight: bold; color: grey; 
+  
+}
+.logo { float: left; margin: .25em; font-size: 1.75em; color: black;}
+.logo:last-child {margin-right: none;}
+
+
+#headertxt1 {
+    font-size: 2em;
+    position: absolute;
+    top: 16.5%;
+    margin: 0% 25% 0% 25%;    
+    text-align: center;
+     width: 50%;
+ 
+}
+#headertxt3 {
+    font-size: 2em;
+    position: absolute;
+    top: 18.5%;
+    margin: 0% 25% 0% 25%;
+    width: 50%;
+    text-align: center;
+ 
+}
+#headertxt2 {
+    font-size: 2em;
+    position: absolute;
+    top: 18.5%;
+    margin: 0% 25% 0% 25%;    
+    text-align: center;
+     width: 50%;
+ 
+}
+#headertxt4 {
+    font-size: 2em;
+    position: absolute;
+    top: 20.5%;
+    margin: 0% 25% 0% 25%;    
+    text-align: center;
+    width: 50%;
+ 
+}
+.subheader {font-size: .65em;}
+.subheader2 {font-size: .65em; color: #4a4f4a; font-style: italic;}
+/*---------------ARTICLE CONtENTS----------------*/
+.articlehdr {
+    font-size: 1.5em
+}
+.articlesub {
+    color: grey;
+
+}
+.articlesub1 {
+    color: grey;
+    padding-left: 15%
+
+}
+.articleintro {
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+
+
+.articleinf {
+    width: 25%;
+   border-right: 2px solid grey;
+}
+/*---------------ACTUAL ARTICLES----------------*/
+.article1{
+    grid-area: article1;
+    background-color: white;
+    
+  
+  
+}
+
+.articlebgn1 {
+    position: absolute;
+    top: 46%;
+    left: 42.5%;
+}
+
+.article2{
+    grid-area: article2;
+    background-color: white;
+
+ 
+}
+.articlebgn2 {
+    position: absolute;
+    top: 61%;
+    left: 42.5%;
+}
+.article3 {
+    grid-area: article3;
+    background-color: white;
+  
+
+}
+.articlebgn3 {
+    position: absolute;
+    top: 76%;
+    left: 42.5%;
+}
+.article4 {
+    grid-area: article4;
+    background-color: white;
+}
+
+.articlebgn4 {
+    position: absolute;
+    top: 91%;
+    left: 42.5%;
+}
+/*---------------POST----------------*/
+
+.post {
+    grid-area: post;
+    margin-left: 25%;
+    width: 50%;
+    margin-top: 4%;
+    
+}
+.postsubheader {
+    font-size: 1.45em;
+    color: grey;
+    margin-top: 6px;
+    margin-bottom: 0px;
+}
+
+.postendsub {color: grey; font-style: italic;}
+.emphasis {font-style:italic;}
+
+/*---------------LINKS----------------*/
+
+.hover:hover {
+    background-color: rgba(53, 156, 77, .2); color: black; border-radius: 50px;
+}
+.link:hover {
+    background-color: rgba(53, 156, 77, .2); color: black; border-radius: 50px;
+}
+.hover {
+    padding: 6px; padding-top: 3px;
+}
+
+
+a {text-decoration: none; color: black;}
+
+/*---------------FORMATTING----------------*/
+main {
+    width: 100%;
+    height: 100%;
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 40vh 15vh 15vh 15vh 15vh;
+    grid-gap: 0px;
+    margin: 0 auto;
+}
+#content {
+    grid-template-areas: 
+        "header header"
+        "article1 article1"
+        "article2 article2"
+        "article3 article3"
+        "article4 article4"
+
+}
+
+#blogcontent {
+    grid-template-areas: 
+        "header header"
+        "post post"
+        "post post"
+        "post post"
+        "post post"
+        "post post"
+}
+
+
+
+
+
