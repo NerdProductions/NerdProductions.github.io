@@ -10,7 +10,19 @@ body {
     line-height: 1.5;
 
 }
+/*---------------RESPONSIVE DESIGN----------------*/
 
+@media only screen and (max-width: 847px) {
+    * {
+        font-size: .85em;
+    }
+}
+
+@media screen and (max-width: 1280px) and (min-width: 847px) {
+    * {
+        font-size: .95em;
+    }
+}
  /*---------------HEADER AND NAV----------------*/   
 .header {
     grid-area: header;
