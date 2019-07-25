@@ -105,6 +105,8 @@ body {
 .articleinf {
     border-right: 2px solid grey;
     flex-grow: 1;
+    padding-right: 20px;
+    margin-right: 20px;
   
 }
 /*---------------ACTUAL ARTICLES----------------*/
@@ -269,6 +271,7 @@ main {
     
 }
     .hero {height: 430px;}
+    .articlecont {width: 75%;}
 }
 @media only screen and (max-width: 500px){
      main {
