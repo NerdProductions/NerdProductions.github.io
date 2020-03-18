@@ -1,8 +1,8 @@
 // Be a Brit
 var colurs = {
-    colurnames: ["Salmon", "CadetBlue", "Olive", "Chocolate", "DarkKhaki", "DodgerBlue", "IndianRed", "Maroon"],
-    colurphrase1: ["Are you a bear?", "Do you work for NASA?", "Do you like Italy?", "Are you from Switzerland?", "G'day mate!", "Are you a Giants fan?", "Do you want some dosa?", "Did you watch Superbowl 53?"],
-    colurphrase2a: ["Please don't eat me!", "I wanna go to space when I grow up!", "I do BECAUSE PIZZA.", "Which way is it to the yodeling class?", "Do you want to play some rugby?", "Go Dodgers!", "I prefer naan.", "The halftime score was Maroon: 5, Rams: 3."],
+    colurnames: ["Salmon", "CadetBlue", "Olive", "Chocolate", "DarkKhaki", "DodgerBlue", "Maroon"],
+    colurphrase1: ["Are you a bear?", "Do you work for NASA?", "Do you like Italy?", "Are you from Switzerland?", "G'day mate!", "Are you a Giants fan?", "Did you watch Superbowl 53?"],
+    colurphrase2a: ["Please don't eat me!", "I wanna go to space when I grow up!", "I do BECAUSE PIZZA.", "Which way is it to the yodeling class?", "Do you want to play some rugby?", "Go Dodgers!", "The final score was Maroon: 5, Rams: 3."],
     colurphrase2b: []
 };
 var colurcycle = 0;
