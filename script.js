@@ -1,8 +1,8 @@
 // Be a Brit
 var colurs = {
-    colurnames: ["Salmon", "CadetBlue", "Olive", "Chocolate", "DarkKhaki", "DodgerBlue", "Maroon"],
-    colurphrase1: ["Are you a bear?", "Do you work for NASA?", "Do you like Italy?", "Are you from Switzerland?", "G'day mate!", "Are you a Giants fan?", "Did you watch Superbowl 53?"],
-    colurphrase2a: ["Please don't eat me!", "I wanna go to space when I grow up!", "I do BECAUSE PIZZA.", "Which way is it to the yodeling class?", "Do you want to play some rugby?", "Go Dodgers!", "The final score was Maroon: 5, Rams: 3."],
+    colurnames: ["Salmon", "CadetBlue", "Olive", "Chocolate", "DodgerBlue", "Maroon", "BurlyWood", "Chartreuse", "Tomato", "SteelBlue"],
+    colurphrase1: ["Are you a bear?", "Do you work for NASA?", "Do you like Italy?", "Are you from Switzerland?", "Are you a Giants fan?", "Did you watch Superbowl 53?", "Whaddya want?", "Care to have a drink?", "Are you a European?", "Have you ever been to Detroit?"],
+    colurphrase2a: ["Please don't eat me!", "I wanna go to space when I grow up!", "I do BECAUSE PIZZA.", "I'm 65% cacao.", "Go Dodgers!", "The final score was Maroon: 5, Rams: 3.", "*Grunts*", "Today's special is especially aromatic.", "Some of your kind used to think me poisonous.", "It's my favorite city, being my hometown."],
     colurphrase2b: []
 };
 var colurcycle = 0;
@@ -29,10 +29,10 @@ item.addEventListener("click", itemclicker);
 var arrows = document.getElementsByClassName("arrow")
 var arrowf = document.getElementById("arrowf");
 var arrowfclick = function() {
-    if (colurcycle < 7) { 
+    if (colurcycle < 9) { 
         colurcycle = colurcycle + 1;
     }
-    else if (colurcycle === 7) {
+    else if (colurcycle === 9) {
         colurcycle = 0;
     }
     item.style.backgroundColor = colurs.colurnames[colurcycle];
@@ -47,7 +47,7 @@ var arrowbclick = function() {
         colurcycle = colurcycle - 1;
     }
     else if (colurcycle === 0) {
-        colurcycle = 7;
+        colurcycle = 9;
     }
     item.style.backgroundColor = colurs.colurnames[colurcycle];
     itemtxt.textContent = colurs.colurnames[colurcycle];
