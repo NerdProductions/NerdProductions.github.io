@@ -1,8 +1,10 @@
 * {margin: 0px; padding: 0px; user-select: none;}
 
-container {padding: 25%; display: flex; flex-direction: row; align-items: center; justify-content: center; padding-top: 45vh;}
+container { display: flex; flex-direction: row; align-items: center; justify-content: center; }
 
 #item {padding: 12px; border-radius: 32px;  margin: 4px; font-family: monospace; background-color: salmon;}
+
+#txt {text-align: center;}
 
 #item:hover {color:white}
 
@@ -21,3 +23,13 @@ dio {position: absolute; top: 0%; right: 0%; padding: 10px; display: flex; flex-
 
 #attribution {padding: 12px; border-radius: 32px;  margin: 12px; font-family: monospace; background-color: salmon; width: 50%;
 }
+
+universe {
+    display: flex; flex-direction: column; align-items: center; padding: 25%; padding-top: 45vh;
+}
+container2 {
+    display: flex; flex-direction: row; align-items: center;
+}
+
+#button1 {padding: 12px; border-radius: 32px;  margin: 4px; font-family: monospace; background-color: white; color: white;}
+#button2 {padding: 12px; border-radius: 32px;  margin: 4px; font-family: monospace; background-color: white; color: white;}
