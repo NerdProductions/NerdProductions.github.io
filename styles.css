@@ -2,7 +2,7 @@
 
 container { display: flex; flex-direction: row; align-items: center; justify-content: center; }
 
-#item {padding: 12px; border-radius: 32px;  margin: 4px; font-family: monospace; background-color: peru;}
+#item {padding: 12px; border-radius: 32px;  margin: 4px; font-family: monospace; background-color: salmon;}
 
 #txt {text-align: center;}
 
